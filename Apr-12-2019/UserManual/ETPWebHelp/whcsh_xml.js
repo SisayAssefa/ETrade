@@ -1,0 +1,1 @@
+gXMLBuffer ="<?xml version='1.0' encoding='utf-8' ?>  <csh-info>  	<item mapid=\"The_WidgetMax_Information_Screen\" mapnum=\"1\" topicurl=\"screen_level/the_widgetmax_information_screen.htm\" />  </csh-info>";

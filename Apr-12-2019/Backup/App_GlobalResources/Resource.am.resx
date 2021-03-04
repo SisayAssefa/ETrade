@@ -1,0 +1,582 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnClear" xml:space="preserve">
+    <value>አጽዳ</value>
+  </data>
+  <data name="btnClearLang" xml:space="preserve">
+    <value>እንደገና ጀምር</value>
+  </data>
+  <data name="btnSubmit" xml:space="preserve">
+    <value>አዘዝ</value>
+  </data>
+  <data name="btnSubmitLang" xml:space="preserve">
+    <value>መዝግብ</value>
+  </data>
+  <data name="btnView" xml:space="preserve">
+    <value>አሳይ</value>
+  </data>
+  <data name="chkOrderType" xml:space="preserve">
+    <value>በገበያ ዋጋ</value>
+  </data>
+  <data name="lblAdmin" xml:space="preserve">
+    <value>መቆጣጠሪያ</value>
+  </data>
+  <data name="lblAskPrice" xml:space="preserve">
+    <value>ሽያጭ ዋጋ</value>
+  </data>
+  <data name="lblAskQty" xml:space="preserve">
+    <value>ሽያጭ ብዛት</value>
+  </data>
+  <data name="lblAvailable" xml:space="preserve">
+    <value>ቀሪ</value>
+  </data>
+  <data name="lblBidPrice" xml:space="preserve">
+    <value>ግዥ ዋጋ</value>
+  </data>
+  <data name="lblBidQty" xml:space="preserve">
+    <value>ግዥ ብዛት</value>
+  </data>
+  <data name="lblBuyAggregatedQty" xml:space="preserve">
+    <value>ጠቅላላ ግዥ</value>
+  </data>
+  <data name="lblBuyerId" xml:space="preserve">
+    <value>የገዥ መታወቂያ</value>
+  </data>
+  <data name="lblChange" xml:space="preserve">
+    <value>ለውጥ</value>
+  </data>
+  <data name="lblCharts" xml:space="preserve">
+    <value>ቻርቶች</value>
+  </data>
+  <data name="lblClientAccount" xml:space="preserve">
+    <value>የደንበኞቼ ሚስጥር ቁልፍ</value>
+  </data>
+  <data name="lblClientId" xml:space="preserve">
+    <value>የደንበኛ ቁ.</value>
+  </data>
+  <data name="lblClientList" xml:space="preserve">
+    <value>የደንበኞች ዝርዝር</value>
+  </data>
+  <data name="lblCommodityName" xml:space="preserve">
+    <value>የምርት ዓይነት</value>
+  </data>
+  <data name="lblCustomization" xml:space="preserve">
+    <value>መቀየሪያ</value>
+  </data>
+  <data name="lblDayValidity" xml:space="preserve">
+    <value>ለዕለት</value>
+  </data>
+  <data name="lblExecutedOrders" xml:space="preserve">
+    <value>ግብይታቸው የተከናወኑ ትዕዛዞች</value>
+  </data>
+  <data name="lblExecutionType" xml:space="preserve">
+    <value>የግብይት ሂደት</value>
+  </data>
+  <data name="lblExecutionTypeLang" xml:space="preserve">
+    <value>ሳይቆራረጥ በአንድ ላይ</value>
+  </data>
+  <data name="lblExpiryDate" xml:space="preserve">
+    <value>የቆይታ ገደብ</value>
+  </data>
+  <data name="lblFor" xml:space="preserve">
+    <value>የ</value>
+  </data>
+  <data name="lblGtcValidity" xml:space="preserve">
+    <value>እስክሰርዝ</value>
+  </data>
+  <data name="lblGtdValidity" xml:space="preserve">
+    <value>በገደብ</value>
+  </data>
+  <data name="lblHigh" xml:space="preserve">
+    <value>ከፍተኛ</value>
+  </data>
+  <data name="lblHome" xml:space="preserve">
+    <value>መነሻ</value>
+  </data>
+  <data name="lblId" xml:space="preserve">
+    <value>መታወቂያ</value>
+  </data>
+  <data name="lblInstruction" xml:space="preserve">
+    <value>የትዕዛዝ መልዕክቶች</value>
+  </data>
+  <data name="lblIsIf" xml:space="preserve">
+    <value>በብድር የተያዘ?</value>
+  </data>
+  <data name="lblLast" xml:space="preserve">
+    <value>የመጨረሻ</value>
+  </data>
+  <data name="lblLimitPrice" xml:space="preserve">
+    <value>ውስን ዋጋ</value>
+  </data>
+  <data name="lblLoading" xml:space="preserve">
+    <value>እባክዎ ይጠብቁ ... </value>
+  </data>
+  <data name="lblLow" xml:space="preserve">
+    <value>ዝቅተኛ</value>
+  </data>
+  <data name="lblMarketDepth" xml:space="preserve">
+    <value>ዝርዝር የገበያ መረጃ</value>
+  </data>
+  <data name="lblMarketScreen" xml:space="preserve">
+    <value>የመገበያያ ስክሪን ገጽታ</value>
+  </data>
+  <data name="lblMarketWatch" xml:space="preserve">
+    <value>የገበያ ምልከታ</value>
+  </data>
+  <data name="lblMCP" xml:space="preserve">
+    <value>ኤም ሲ ፒ</value>
+  </data>
+  <data name="lblMemberId" xml:space="preserve">
+    <value>የአባል ቁጥር</value>
+  </data>
+  <data name="lblMyAccount" xml:space="preserve">
+    <value>የኔ ሚስጥር ቁልፍ</value>
+  </data>
+  <data name="lblMyWatchList" xml:space="preserve">
+    <value>የኔ ምልከታዎች</value>
+  </data>
+  <data name="lblMyWatchlistLastUpdated" xml:space="preserve">
+    <value>የተከለሰበት ሰዓት</value>
+  </data>
+  <data name="lblNo" xml:space="preserve">
+    <value>ቁጥር</value>
+  </data>
+  <data name="lblOddLot" xml:space="preserve">
+    <value>ቁርጥራጭ</value>
+  </data>
+  <data name="lblOnlineMCA" xml:space="preserve">
+    <value>ኦን ላይን ኤም ሲ ኤ</value>
+  </data>
+  <data name="lblOpening" xml:space="preserve">
+    <value>መክፈቻ</value>
+  </data>
+  <data name="lblCancelledOrders" xml:space="preserve">
+    <value>የተሰረዙ ትዕዛዞች</value>
+  </data>
+  <data name="lblOrderNo" xml:space="preserve">
+    <value>የትዕዛዝ ቁጥር</value>
+  </data>
+  <data name="lblOrderTicketTypeBuy" xml:space="preserve">
+    <value>ግዥ</value>
+  </data>
+  <data name="lblOrderTicketTypeSell" xml:space="preserve">
+    <value>ሽያጭ</value>
+  </data>
+  <data name="lblOrderType" xml:space="preserve">
+    <value>የትዕዛዝ አይነት</value>
+  </data>
+  <data name="lblOthers" xml:space="preserve">
+    <value>ሌሎች</value>
+  </data>
+  <data name="lblPendingOrders" xml:space="preserve">
+    <value>ግብይት የሚጠብቁ ትዕዛዞች</value>
+  </data>
+  <data name="lblPositionSummary" xml:space="preserve">
+    <value>የቀሪዎቼ ዝርዝር</value>
+  </data>
+  <data name="lblPrice" xml:space="preserve">
+    <value>ዋጋ</value>
+  </data>
+  <data name="lblPriceTime" xml:space="preserve">
+    <value>የግብይት ዋጋ በሰዓት ንጽጽር</value>
+  </data>
+  <data name="lblProductionYear" xml:space="preserve">
+    <value>የምርት ዘመን</value>
+  </data>
+  <data name="lblQuantity" xml:space="preserve">
+    <value>ብዛት</value>
+  </data>
+  <data name="lblRepAccess" xml:space="preserve">
+    <value>የተወካዮቼ መብት</value>
+  </data>
+  <data name="lblRepClient" xml:space="preserve">
+    <value>ተወካይ ከደንበኛ ማገናኛ</value>
+  </data>
+  <data name="lblReports" xml:space="preserve">
+    <value>ሪፖርቶች</value>
+  </data>
+  <data name="lblSelfTrade" xml:space="preserve">
+    <value>የግል ግብይት?</value>
+  </data>
+  <data name="lblSellAggregatedQty" xml:space="preserve">
+    <value>ጠቅላላ ሽያጭ</value>
+  </data>
+  <data name="lblSellerId" xml:space="preserve">
+    <value>የሻጭ መታወቂያ</value>
+  </data>
+  <data name="lblSession" xml:space="preserve">
+    <value>የግብይት ክ/ጊዜ</value>
+  </data>
+  <data name="lblSymbol" xml:space="preserve">
+    <value>ምልክት</value>
+  </data>
+  <data name="lblTime" xml:space="preserve">
+    <value>ሰዓት</value>
+  </data>
+  <data name="lblTradeHistory" xml:space="preserve">
+    <value>የግብይት ታሪክ ዕይታ</value>
+  </data>
+  <data name="lblValidity" xml:space="preserve">
+    <value>የትዕዛዙ ቆይታ</value>
+  </data>
+  <data name="lblValue" xml:space="preserve">
+    <value>ዋጋ</value>
+  </data>
+  <data name="lblVolumeTime" xml:space="preserve">
+    <value>የግብይት መጠን በሰዓት ንጽጽር</value>
+  </data>
+  <data name="lblWarehouse" xml:space="preserve">
+    <value>መጋዘን</value>
+  </data>
+  <data name="lblViewSchedule" xml:space="preserve">
+    <value>የዕለቱ ፕሮግራም</value>
+  </data>
+  <data name="lblViewSession" xml:space="preserve">
+    <value>የዛሬ ግብይት ክ/ጊዜ ፕሮግራም</value>
+  </data>
+  <data name="lblWeekDay" xml:space="preserve">
+    <value>ዕለት</value>
+  </data>
+  <data name="lblCancelAllPending" xml:space="preserve">
+    <value>ሁሉን ሰርዝ</value>
+  </data>
+  <data name="lblTicketConfirmationMsg" xml:space="preserve">
+    <value>የሚከተለውን ትዕዛዝ ከመላክዎ በፊት በድጋሚ በመመልከት ትክክለኛነቱን ያረጋግጡ</value>
+  </data>
+  <data name="btnNo" xml:space="preserve">
+    <value>አይ</value>
+  </data>
+  <data name="btnExit" xml:space="preserve">
+    <value>ውጣ</value>
+  </data>
+  <data name="lblBuyTicket" xml:space="preserve">
+    <value>የግዥ ደረሰኝ</value>
+  </data>
+  <data name="lblSellTicket" xml:space="preserve">
+    <value>የሽያጭ ደረሰኝ</value>
+  </data>
+  <data name="btnYes" xml:space="preserve">
+    <value>አዎ</value>
+  </data>
+  <data name="lblConfirmationAgreementMsg" xml:space="preserve">
+    <value>ከላይ የተዘረዘረውን እንዲመዘገብ ተሰማምቻለሁ</value>
+  </data>
+  <data name="lblMWSession" xml:space="preserve">
+    <value>የግብይት ፕሮግራም </value>
+  </data>
+  <data name="lblSessionMW" xml:space="preserve">
+    <value>የግብይት ክ/ጊዜ</value>
+  </data>
+  <data name="lblBank" xml:space="preserve">
+    <value>ባንክ</value>
+  </data>
+  <data name="lblClient" xml:space="preserve">
+    <value>ደንበኛ</value>
+  </data>
+  <data name="lblMember" xml:space="preserve">
+    <value>አባል</value>
+  </data>
+  <data name="lblMemberName" xml:space="preserve">
+    <value>የአባል ስም</value>
+  </data>
+  <data name="lblAccountNumber" xml:space="preserve">
+    <value>የሒሳብ ቁጥር</value>
+  </data>
+  <data name="lblAccountType" xml:space="preserve">
+    <value>ዓይነት</value>
+  </data>
+  <data name="lblBalance" xml:space="preserve">
+    <value>ቀሪ ገንዘብ</value>
+  </data>
+  <data name="lblClientName" xml:space="preserve">
+    <value>የደንበኛ ስም</value>
+  </data>
+  <data name="lblCurrentQty" xml:space="preserve">
+    <value>የመነሻ ብዛት</value>
+  </data>
+  <data name="lblTempQty" xml:space="preserve">
+    <value>ቀሪ ብዛት</value>
+  </data>
+  <data name="lblAccessedDate" xml:space="preserve">
+    <value>የታየበት ሰዓት</value>
+  </data>
+  <data name="lblBuySell" xml:space="preserve">
+    <value>ግዥ/ሽያጭ</value>
+  </data>
+  <data name="lblLogOut" xml:space="preserve">
+    <value>ቆልፍ</value>
+  </data>
+  <data name="lblBuyFor" xml:space="preserve">
+    <value>የግዥው ባለቤት</value>
+  </data>
+  <data name="lblForClient" xml:space="preserve">
+    <value>ለደንበኛ</value>
+  </data>
+  <data name="lblForSelf" xml:space="preserve">
+    <value>ለግል</value>
+  </data>
+  <data name="lblConfirmationAgreementMsgOddLot" xml:space="preserve">
+    <value>ከላይ የተዘረዘረውን ቁርጥራጭ ግዥ እንዲከናወን ተሰማምቻለው</value>
+  </data>
+  <data name="lblTicketConfirmationMsgOddLot" xml:space="preserve">
+    <value>የሚከተለውን ቁርጥራጭ ከመግዛትዎ በፊት ትክክለኛነቱን ያረጋግጡ</value>
+  </data>
+  <data name="lblWarehouseReceipt" xml:space="preserve">
+    <value>የክምችት ደረሰኝ</value>
+  </data>
+  <data name="lblFrom" xml:space="preserve">
+    <value>ከ</value>
+  </data>
+  <data name="lblRep" xml:space="preserve">
+    <value>ተወካይ</value>
+  </data>
+  <data name="lblStatus" xml:space="preserve">
+    <value>ያለበት ደረጃ</value>
+  </data>
+  <data name="lblTo" xml:space="preserve">
+    <value>እስከ</value>
+  </data>
+  <data name="lblSearch" xml:space="preserve">
+    <value>ፈልግ</value>
+  </data>
+  <data name="btnCancel" xml:space="preserve">
+    <value>ይቅር</value>
+  </data>
+  <data name="btnSave" xml:space="preserve">
+    <value>መዝግብ</value>
+  </data>
+  <data name="btnFilter" xml:space="preserve">
+    <value>አጥራ</value>
+  </data>
+  <data name="btnOk" xml:space="preserve">
+    <value>እሺ</value>
+  </data>
+  <data name="lblVolume" xml:space="preserve">
+    <value>ጠቅላላ የግብይት መጠን</value>
+  </data>
+  <data name="lblOrderHistory" xml:space="preserve">
+    <value>የግብይት ትዕዛዞች  እይታ</value>
+  </data>
+  <data name="lblMDBuyTime" xml:space="preserve">
+    <value>የገዚ ሰአት</value>
+  </data>
+  <data name="lblMDSellTime" xml:space="preserve">
+    <value>የሽያጭ ሰአት</value>
+  </data>
+  <data name="lblRemainingDays" xml:space="preserve">
+    <value>ቀሪ ቀናት</value>
+  </data>
+  <data name="lblTraderId" xml:space="preserve">
+    <value>የተገበያይ መለያ - ቁጥር</value>
+  </data>
+  <data name="lblWRNo" xml:space="preserve">
+    <value>የመጋዘን ደረሰኝ ቁ.</value>
+  </data>
+  <data name="lblChangePassword" xml:space="preserve">
+    <value>የሚስጥር ቁልፍ መቀየሪያ</value>
+  </data>
+  <data name="lblInstructionHistory" xml:space="preserve">
+    <value>የትዕዛዝ መልዕክቶች ታሪክ ዕይታ</value>
+  </data>
+  <data name="lblTradedToday" xml:space="preserve">
+    <value>የዛሬ ግብይቶች</value>
+  </data>
+  <data name="lblHelp" xml:space="preserve">
+    <value>እርዳታ</value>
+  </data>
+  <data name="lblInstructionEntryForm" xml:space="preserve">
+    <value>መልዕክት ማስተላለፊያ ቅፅ</value>
+  </data>
+  <data name="lblOrderEntryForm" xml:space="preserve">
+    <value>ትዕዛዝ ማስተላለፊያ ቅፅ</value>
+  </data>
+  <data name="lblInstructionType" xml:space="preserve">
+    <value>የመልዕክት ዓይነት</value>
+  </data>
+  <data name="lblRepId" xml:space="preserve">
+    <value>የተወካይ ቁ</value>
+  </data>
+  <data name="lblPriceLimit" xml:space="preserve">
+    <value>የዋጋ ወሰን</value>
+  </data>
+  <data name="lblLanguage" xml:space="preserve">
+    <value>ቋንቋ</value>
+  </data>
+  <data name="lblLoginTitle" xml:space="preserve">
+    <value>የኢ.ም.ገ  ኤሌክሮኒክስ መገበያያ - መግቢያ</value>
+  </data>
+  <data name="lblPassword" xml:space="preserve">
+    <value>የሚስጥር ቁልፍ</value>
+  </data>
+  <data name="lblUserName" xml:space="preserve">
+    <value>የተገበያይ ቁጥር</value>
+  </data>
+  <data name="lblDate" xml:space="preserve">
+    <value>ቀን</value>
+  </data>
+  <data name="lblPreviousClosingPrice" xml:space="preserve">
+    <value>የባለፈው መዝግያ ዋጋ</value>
+  </data>
+  <data name="lblPriceLimitView" xml:space="preserve">
+    <value>የዋጋ ወስን መመልከቻ</value>
+  </data>
+  <data name="lblExecutedPrice" xml:space="preserve">
+    <value>የተሽጠበት ዋጋ</value>
+  </data>
+  <data name="lblExecutedQuantity" xml:space="preserve">
+    <value>የተሽጠው ብዛት</value>
+  </data>
+  <data name="IsVATExempt" xml:space="preserve">
+    <value>ከቫት ነፃ?</value>
+  </data>
+  <data name="lblCompanyType" xml:space="preserve">
+    <value>የድርጅቱ አይነት</value>
+  </data>
+  <data name="lblIsTOTExempt" xml:space="preserve">
+    <value>ከቲኦቲ ነፃ?</value>
+  </data>
+  <data name="lblIsWithHoldingExempt" xml:space="preserve">
+    <value>ከዊዝሆልዲንግ ነፃ?</value>
+  </data>
+  <data name="lblIsSTP" xml:space="preserve">
+    <value>ቀጥተኛ ደንበኛ?</value>
+  </data>
+  <data name="lblLicenses" xml:space="preserve">
+    <value>የንግድ ፈቃድ</value>
+  </data>
+  <data name="lblLicensesType" xml:space="preserve">
+    <value>የፍቃዱ አይነት</value>
+  </data>
+  <data name="lblTOTTradesMessage" xml:space="preserve">
+    <value>ግብይቱ ከተርን ኦቨር ታክስ ከፋይ ጋር በሚዛመድበት ጊዜ የሁለት በመቶ (2%) የዋጋ ማስተካከያ (ቅነሳ) ይደረግበታል</value>
+  </data>
+  <data name="lblOddLotPriceRangeInfo" xml:space="preserve">
+    <value>ሁሉም ቁርጥራጭ ግብይቶች በዋጋ ወሰን ውስጥ እንዲሆኑ አይገደዱም</value>
+  </data>
+  <data name="lblLowerLimit" xml:space="preserve">
+    <value>ዝቅተኛ የዋጋ ወሰን</value>
+  </data>
+  <data name="lblUpperLimit" xml:space="preserve">
+    <value>ክፍተኛ የዋጋ ወሰን</value>
+  </data>
+  <data name="lblTradeFor" xml:space="preserve">
+    <value>የግብይቱ ባለቤት</value>
+  </data>
+</root>

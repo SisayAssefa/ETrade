@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="utf-8"?>
+<wsdl:definitions xmlns:wsap="http://schemas.xmlsoap.org/ws/2004/08/addressing/policy" xmlns:wsa10="http://www.w3.org/2005/08/addressing" xmlns:tns="http://tempuri.org/" xmlns:msc="http://schemas.microsoft.com/ws/2005/12/wsdl/contract" xmlns:soapenc="http://schemas.xmlsoap.org/soap/encoding/" xmlns:wsx="http://schemas.xmlsoap.org/ws/2004/09/mex" xmlns:wsp="http://schemas.xmlsoap.org/ws/2004/09/policy" xmlns:wsam="http://www.w3.org/2007/05/addressing/metadata" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:soap12="http://schemas.xmlsoap.org/wsdl/soap12/" xmlns:wsaw="http://www.w3.org/2006/05/addressing/wsdl" xmlns:soap="http://schemas.xmlsoap.org/wsdl/soap/" xmlns:wsu="http://docs.oasis-open.org/wss/2004/01/oasis-200401-wss-wssecurity-utility-1.0.xsd" xmlns:xsd="http://www.w3.org/2001/XMLSchema" name="Notification" targetNamespace="http://tempuri.org/" xmlns:wsdl="http://schemas.xmlsoap.org/wsdl/">
+  <wsdl:types>
+    <xsd:schema targetNamespace="http://tempuri.org/Imports">
+      <xsd:import schemaLocation="http://localhost:46667/General/Notification.svc?xsd=xsd0" namespace="http://tempuri.org/" />
+      <xsd:import schemaLocation="http://localhost:46667/General/Notification.svc?xsd=xsd1" namespace="http://schemas.microsoft.com/2003/10/Serialization/" />
+      <xsd:import schemaLocation="http://localhost:46667/General/Notification.svc?xsd=xsd2" namespace="http://schemas.datacontract.org/2004/07/ECXOnlineBussinesLogic" />
+      <xsd:import schemaLocation="http://localhost:46667/General/Notification.svc?xsd=xsd3" namespace="http://schemas.datacontract.org/2004/07/ECXOnlineService_Layer" />
+    </xsd:schema>
+  </wsdl:types>
+  <wsdl:message name="INotification_CreateNewSystemNotificationForSpecificUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateNewSystemNotificationForSpecificUser" />
+  </wsdl:message>
+  <wsdl:message name="INotification_CreateNewSystemNotificationForSpecificUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateNewSystemNotificationForSpecificUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="INotification_CreateNewSystemNotificationForGroups_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateNewSystemNotificationForGroups" />
+  </wsdl:message>
+  <wsdl:message name="INotification_CreateNewSystemNotificationForGroups_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateNewSystemNotificationForGroupsResponse" />
+  </wsdl:message>
+  <wsdl:message name="INotification_CreateNewManualNotificationForSpecificUser_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateNewManualNotificationForSpecificUser" />
+  </wsdl:message>
+  <wsdl:message name="INotification_CreateNewManualNotificationForSpecificUser_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateNewManualNotificationForSpecificUserResponse" />
+  </wsdl:message>
+  <wsdl:message name="INotification_CreateNewManualNotificationForGroups_InputMessage">
+    <wsdl:part name="parameters" element="tns:CreateNewManualNotificationForGroups" />
+  </wsdl:message>
+  <wsdl:message name="INotification_CreateNewManualNotificationForGroups_OutputMessage">
+    <wsdl:part name="parameters" element="tns:CreateNewManualNotificationForGroupsResponse" />
+  </wsdl:message>
+  <wsdl:message name="INotification_GetAllNotifications_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllNotifications" />
+  </wsdl:message>
+  <wsdl:message name="INotification_GetAllNotifications_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetAllNotificationsResponse" />
+  </wsdl:message>
+  <wsdl:message name="INotification_GetUserNotifications_InputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserNotifications" />
+  </wsdl:message>
+  <wsdl:message name="INotification_GetUserNotifications_OutputMessage">
+    <wsdl:part name="parameters" element="tns:GetUserNotificationsResponse" />
+  </wsdl:message>
+  <wsdl:portType name="INotification">
+    <wsdl:operation name="CreateNewSystemNotificationForSpecificUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/INotification/CreateNewSystemNotificationForSpecificUser" message="tns:INotification_CreateNewSystemNotificationForSpecificUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INotification/CreateNewSystemNotificationForSpecificUserResponse" message="tns:INotification_CreateNewSystemNotificationForSpecificUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateNewSystemNotificationForGroups">
+      <wsdl:input wsaw:Action="http://tempuri.org/INotification/CreateNewSystemNotificationForGroups" message="tns:INotification_CreateNewSystemNotificationForGroups_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INotification/CreateNewSystemNotificationForGroupsResponse" message="tns:INotification_CreateNewSystemNotificationForGroups_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateNewManualNotificationForSpecificUser">
+      <wsdl:input wsaw:Action="http://tempuri.org/INotification/CreateNewManualNotificationForSpecificUser" message="tns:INotification_CreateNewManualNotificationForSpecificUser_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INotification/CreateNewManualNotificationForSpecificUserResponse" message="tns:INotification_CreateNewManualNotificationForSpecificUser_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="CreateNewManualNotificationForGroups">
+      <wsdl:input wsaw:Action="http://tempuri.org/INotification/CreateNewManualNotificationForGroups" message="tns:INotification_CreateNewManualNotificationForGroups_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INotification/CreateNewManualNotificationForGroupsResponse" message="tns:INotification_CreateNewManualNotificationForGroups_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetAllNotifications">
+      <wsdl:input wsaw:Action="http://tempuri.org/INotification/GetAllNotifications" message="tns:INotification_GetAllNotifications_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INotification/GetAllNotificationsResponse" message="tns:INotification_GetAllNotifications_OutputMessage" />
+    </wsdl:operation>
+    <wsdl:operation name="GetUserNotifications">
+      <wsdl:input wsaw:Action="http://tempuri.org/INotification/GetUserNotifications" message="tns:INotification_GetUserNotifications_InputMessage" />
+      <wsdl:output wsaw:Action="http://tempuri.org/INotification/GetUserNotificationsResponse" message="tns:INotification_GetUserNotifications_OutputMessage" />
+    </wsdl:operation>
+  </wsdl:portType>
+  <wsdl:service name="Notification" />
+</wsdl:definitions>

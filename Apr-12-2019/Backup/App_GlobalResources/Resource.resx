@@ -1,0 +1,586 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <data name="btnClear" xml:space="preserve">
+    <value>Clear</value>
+  </data>
+  <data name="btnClearLang" xml:space="preserve">
+    <value>Reset Entry </value>
+  </data>
+  <data name="btnSubmit" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="btnSubmitLang" xml:space="preserve">
+    <value>Submit</value>
+  </data>
+  <data name="btnView" xml:space="preserve">
+    <value>View</value>
+  </data>
+  <data name="chkOrderType" xml:space="preserve">
+    <value>Market</value>
+  </data>
+  <data name="lblAdmin" xml:space="preserve">
+    <value>Admin</value>
+  </data>
+  <data name="lblAskPrice" xml:space="preserve">
+    <value>AskPrice</value>
+  </data>
+  <data name="lblAskQty" xml:space="preserve">
+    <value>AskQty</value>
+  </data>
+  <data name="lblAvailable" xml:space="preserve">
+    <value>Available</value>
+  </data>
+  <data name="lblBidPrice" xml:space="preserve">
+    <value>BidPrice</value>
+  </data>
+  <data name="lblBidQty" xml:space="preserve">
+    <value>BidQty</value>
+  </data>
+  <data name="lblBuyAggregatedQty" xml:space="preserve">
+    <value>Agg Bid Qty</value>
+  </data>
+  <data name="lblBuyerId" xml:space="preserve">
+    <value>Buyer</value>
+  </data>
+  <data name="lblChange" xml:space="preserve">
+    <value>Change</value>
+  </data>
+  <data name="lblCharts" xml:space="preserve">
+    <value>Charts</value>
+  </data>
+  <data name="lblClientAccount" xml:space="preserve">
+    <value>Client Account</value>
+  </data>
+  <data name="lblClientId" xml:space="preserve">
+    <value>Client ID</value>
+  </data>
+  <data name="lblClientList" xml:space="preserve">
+    <value>Active Clients List</value>
+  </data>
+  <data name="lblCommodityName" xml:space="preserve">
+    <value>Commodity</value>
+  </data>
+  <data name="lblCustomization" xml:space="preserve">
+    <value>Customize</value>
+  </data>
+  <data name="lblDayValidity" xml:space="preserve">
+    <value>Day</value>
+  </data>
+  <data name="lblExecutedOrders" xml:space="preserve">
+    <value>Executed Orders</value>
+  </data>
+  <data name="lblExecutionType" xml:space="preserve">
+    <value>Execution Type</value>
+  </data>
+  <data name="lblExecutionTypeLang" xml:space="preserve">
+    <value>All or None</value>
+  </data>
+  <data name="lblExpiryDate" xml:space="preserve">
+    <value>Expiry Date</value>
+  </data>
+  <data name="lblFor" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblGtcValidity" xml:space="preserve">
+    <value>GTC</value>
+  </data>
+  <data name="lblGtdValidity" xml:space="preserve">
+    <value>GTD</value>
+  </data>
+  <data name="lblHigh" xml:space="preserve">
+    <value>High</value>
+  </data>
+  <data name="lblHome" xml:space="preserve">
+    <value>Home</value>
+  </data>
+  <data name="lblId" xml:space="preserve">
+    <value>Id</value>
+  </data>
+  <data name="lblInstruction" xml:space="preserve">
+    <value>Instructions</value>
+  </data>
+  <data name="lblIsIf" xml:space="preserve">
+    <value>Is IF?</value>
+  </data>
+  <data name="lblLast" xml:space="preserve">
+    <value>Last</value>
+  </data>
+  <data name="lblLimitPrice" xml:space="preserve">
+    <value>Limit Price</value>
+  </data>
+  <data name="lblLoading" xml:space="preserve">
+    <value>... Loading</value>
+  </data>
+  <data name="lblLow" xml:space="preserve">
+    <value>Low</value>
+  </data>
+  <data name="lblMarketDepth" xml:space="preserve">
+    <value>Market Depth</value>
+  </data>
+  <data name="lblMarketScreen" xml:space="preserve">
+    <value>Market Screen</value>
+  </data>
+  <data name="lblMarketWatch" xml:space="preserve">
+    <value>Market Watch</value>
+  </data>
+  <data name="lblMCP" xml:space="preserve">
+    <value>MCP</value>
+    <comment>Member Client Position</comment>
+  </data>
+  <data name="lblMemberId" xml:space="preserve">
+    <value>Member ID</value>
+  </data>
+  <data name="lblMyAccount" xml:space="preserve">
+    <value>My Account</value>
+  </data>
+  <data name="lblMyWatchList" xml:space="preserve">
+    <value>My Watch List</value>
+  </data>
+  <data name="lblMyWatchlistLastUpdated" xml:space="preserve">
+    <value>Last Updated Time</value>
+  </data>
+  <data name="lblNo" xml:space="preserve">
+    <value />
+  </data>
+  <data name="lblOddLot" xml:space="preserve">
+    <value>Odd-Lot</value>
+  </data>
+  <data name="lblOnlineMCA" xml:space="preserve">
+    <value>Online MCA</value>
+  </data>
+  <data name="lblOpening" xml:space="preserve">
+    <value>Open</value>
+  </data>
+  <data name="lblCancelledOrders" xml:space="preserve">
+    <value>Cancelled Orders</value>
+  </data>
+  <data name="lblOrderNo" xml:space="preserve">
+    <value>Order-No</value>
+  </data>
+  <data name="lblOrderTicketTypeBuy" xml:space="preserve">
+    <value>BUY</value>
+  </data>
+  <data name="lblOrderTicketTypeSell" xml:space="preserve">
+    <value>SELL</value>
+  </data>
+  <data name="lblOrderType" xml:space="preserve">
+    <value>OrderType</value>
+  </data>
+  <data name="lblOthers" xml:space="preserve">
+    <value>Others</value>
+  </data>
+  <data name="lblPendingOrders" xml:space="preserve">
+    <value>Pending Orders</value>
+  </data>
+  <data name="lblPositionSummary" xml:space="preserve">
+    <value>Position Summary</value>
+  </data>
+  <data name="lblPrice" xml:space="preserve">
+    <value>Price</value>
+  </data>
+  <data name="lblPriceTime" xml:space="preserve">
+    <value>Price-Time</value>
+  </data>
+  <data name="lblProductionYear" xml:space="preserve">
+    <value>Year</value>
+  </data>
+  <data name="lblQuantity" xml:space="preserve">
+    <value>Quantity</value>
+  </data>
+  <data name="lblRepAccess" xml:space="preserve">
+    <value>Rep Access</value>
+  </data>
+  <data name="lblRepClient" xml:space="preserve">
+    <value>Rep-Client</value>
+  </data>
+  <data name="lblReports" xml:space="preserve">
+    <value>Reports</value>
+  </data>
+  <data name="lblSelfTrade" xml:space="preserve">
+    <value>Self Trade?</value>
+  </data>
+  <data name="lblSellAggregatedQty" xml:space="preserve">
+    <value>Ask Agg Qty</value>
+  </data>
+  <data name="lblSellerId" xml:space="preserve">
+    <value>Seller</value>
+  </data>
+  <data name="lblSession" xml:space="preserve">
+    <value>Session</value>
+  </data>
+  <data name="lblSymbol" xml:space="preserve">
+    <value>Symbol</value>
+  </data>
+  <data name="lblTime" xml:space="preserve">
+    <value>Time</value>
+  </data>
+  <data name="lblTradeHistory" xml:space="preserve">
+    <value>Trade History</value>
+  </data>
+  <data name="lblValidity" xml:space="preserve">
+    <value>Validity</value>
+  </data>
+  <data name="lblValue" xml:space="preserve">
+    <value>Value</value>
+  </data>
+  <data name="lblVolumeTime" xml:space="preserve">
+    <value>Volume-Time</value>
+  </data>
+  <data name="lblWarehouse" xml:space="preserve">
+    <value>Warehouse</value>
+  </data>
+  <data name="lblViewSchedule" xml:space="preserve">
+    <value>View Schedules</value>
+  </data>
+  <data name="lblViewSession" xml:space="preserve">
+    <value>View Session</value>
+  </data>
+  <data name="lblWeekDay" xml:space="preserve">
+    <value>Week Day</value>
+  </data>
+  <data name="lblCancelAllPending" xml:space="preserve">
+    <value>Cancel All</value>
+  </data>
+  <data name="btnNo" xml:space="preserve">
+    <value>No</value>
+  </data>
+  <data name="btnExit" xml:space="preserve">
+    <value>Exit</value>
+  </data>
+  <data name="lblBuyTicket" xml:space="preserve">
+    <value>Buy Ticket</value>
+  </data>
+  <data name="lblSellTicket" xml:space="preserve">
+    <value>Sell Ticket</value>
+  </data>
+  <data name="btnYes" xml:space="preserve">
+    <value>Yes</value>
+  </data>
+  <data name="lblConfirmationAgreementMsg" xml:space="preserve">
+    <value>I agree to submit the order stated above</value>
+  </data>
+  <data name="lblMWSession" xml:space="preserve">
+    <value>Session</value>
+  </data>
+  <data name="lblSessionMW" xml:space="preserve">
+    <value>Session</value>
+  </data>
+  <data name="lblBank" xml:space="preserve">
+    <value>Bank</value>
+  </data>
+  <data name="lblAccountNumber" xml:space="preserve">
+    <value>Account #</value>
+  </data>
+  <data name="lblAccountType" xml:space="preserve">
+    <value>Account Type</value>
+  </data>
+  <data name="lblBalance" xml:space="preserve">
+    <value>Balance</value>
+  </data>
+  <data name="lblClientName" xml:space="preserve">
+    <value>Client Name</value>
+  </data>
+  <data name="lblCurrentQty" xml:space="preserve">
+    <value>Initial Qty</value>
+  </data>
+  <data name="lblIsMember" xml:space="preserve">
+    <value>Member</value>
+  </data>
+  <data name="lblTempQty" xml:space="preserve">
+    <value>Remaining Qty</value>
+  </data>
+  <data name="lblClient" xml:space="preserve">
+    <value>Client</value>
+  </data>
+  <data name="lblMember" xml:space="preserve">
+    <value>Member</value>
+  </data>
+  <data name="lblMemberName" xml:space="preserve">
+    <value>Member Name</value>
+  </data>
+  <data name="lblAccessedDate" xml:space="preserve">
+    <value>Accessed Date</value>
+  </data>
+  <data name="lblBuySell" xml:space="preserve">
+    <value>Buy/Sell</value>
+  </data>
+  <data name="lblLogOut" xml:space="preserve">
+    <value>Logout</value>
+  </data>
+  <data name="lblBuyFor" xml:space="preserve">
+    <value>Buy For</value>
+  </data>
+  <data name="lblForClient" xml:space="preserve">
+    <value>For Client</value>
+  </data>
+  <data name="lblForSelf" xml:space="preserve">
+    <value>For Self</value>
+  </data>
+  <data name="lblConfirmationAgreementMsgOddLot" xml:space="preserve">
+    <value>I agree to submit the OddLot buy order stated above</value>
+  </data>
+  <data name="lblTicketConfirmationMsg" xml:space="preserve">
+    <value>Please revise the following Order before you submit your entry.</value>
+  </data>
+  <data name="lblTicketConfirmationMsgOddLot" xml:space="preserve">
+    <value>Please revise the following Buy OddLot before you submit.</value>
+  </data>
+  <data name="lblWarehouseReceipt" xml:space="preserve">
+    <value>Warehouse Receipt</value>
+  </data>
+  <data name="lblFrom" xml:space="preserve">
+    <value>From</value>
+  </data>
+  <data name="lblRep" xml:space="preserve">
+    <value>Representative</value>
+  </data>
+  <data name="lblStatus" xml:space="preserve">
+    <value>Status</value>
+  </data>
+  <data name="lblTo" xml:space="preserve">
+    <value>To</value>
+  </data>
+  <data name="lblSearch" xml:space="preserve">
+    <value>Search</value>
+  </data>
+  <data name="btnCancel" xml:space="preserve">
+    <value>Cancel</value>
+  </data>
+  <data name="btnSave" xml:space="preserve">
+    <value>Save</value>
+  </data>
+  <data name="btnFilter" xml:space="preserve">
+    <value>Filter</value>
+  </data>
+  <data name="btnOk" xml:space="preserve">
+    <value>Ok</value>
+  </data>
+  <data name="lblVolume" xml:space="preserve">
+    <value>Vol.</value>
+  </data>
+  <data name="lblOrderHistory" xml:space="preserve">
+    <value>Order History</value>
+  </data>
+  <data name="lblMDBuyTime" xml:space="preserve">
+    <value>Buyer Time</value>
+  </data>
+  <data name="lblMDSellTime" xml:space="preserve">
+    <value>Seller Time</value>
+  </data>
+  <data name="lblRemainingDays" xml:space="preserve">
+    <value>Remaining Days</value>
+  </data>
+  <data name="lblTraderId" xml:space="preserve">
+    <value>Trader ID</value>
+  </data>
+  <data name="lblWRNo" xml:space="preserve">
+    <value>WR #</value>
+  </data>
+  <data name="lblChangePassword" xml:space="preserve">
+    <value>Change Password</value>
+  </data>
+  <data name="lblInstructionHistory" xml:space="preserve">
+    <value>Instruction History</value>
+  </data>
+  <data name="lblTradedToday" xml:space="preserve">
+    <value>Traded Today</value>
+  </data>
+  <data name="lblHelp" xml:space="preserve">
+    <value>Help</value>
+  </data>
+  <data name="lblInstructionEntryForm" xml:space="preserve">
+    <value>Instruction Entry Form</value>
+  </data>
+  <data name="lblOrderEntryForm" xml:space="preserve">
+    <value>Order Entry Form</value>
+  </data>
+  <data name="lblInstructionType" xml:space="preserve">
+    <value>Instruction Type</value>
+  </data>
+  <data name="lblRepId" xml:space="preserve">
+    <value>Rep ID</value>
+  </data>
+  <data name="lblPriceLimit" xml:space="preserve">
+    <value>Price Limit</value>
+  </data>
+  <data name="lblLanguage" xml:space="preserve">
+    <value>Language</value>
+  </data>
+  <data name="lblLoginTitle" xml:space="preserve">
+    <value>ECX Online Trading - Login</value>
+  </data>
+  <data name="lblPassword" xml:space="preserve">
+    <value>Password</value>
+  </data>
+  <data name="lblUserName" xml:space="preserve">
+    <value>User Name</value>
+  </data>
+  <data name="lblDate" xml:space="preserve">
+    <value>Date</value>
+  </data>
+  <data name="lblPreviousClosingPrice" xml:space="preserve">
+    <value>Previous Closing Price</value>
+  </data>
+  <data name="lblPriceLimitView" xml:space="preserve">
+    <value>Price Range View</value>
+  </data>
+  <data name="lblExecutedPrice" xml:space="preserve">
+    <value>Price (Exec.)</value>
+  </data>
+  <data name="lblExecutedQuantity" xml:space="preserve">
+    <value>Qty (Exec.)</value>
+  </data>
+  <data name="IsVATExempt" xml:space="preserve">
+    <value>VAT Exempt?</value>
+  </data>
+  <data name="lblCompanyType" xml:space="preserve">
+    <value>Company Type</value>
+  </data>
+  <data name="lblIsSTP" xml:space="preserve">
+    <value>Is STP?</value>
+  </data>
+  <data name="lblIsTOTExempt" xml:space="preserve">
+    <value>TOT Exempt?</value>
+  </data>
+  <data name="lblIsWithHoldingExempt" xml:space="preserve">
+    <value>WithHolding Exempt?</value>
+  </data>
+  <data name="lblLicenses" xml:space="preserve">
+    <value>Licenses</value>
+  </data>
+  <data name="lblLicensesType" xml:space="preserve">
+    <value>License Type</value>
+  </data>
+  <data name="lblTOTTradesMessage" xml:space="preserve">
+    <value>The quoted price is subject to 2% adjustment (deduction) upon payment when the trade is matched with TOT payer</value>
+  </data>
+  <data name="lblOddLotPriceRangeInfo" xml:space="preserve">
+    <value>All Odd-Lot prices are not forced to be in the price range.</value>
+  </data>
+  <data name="lblLowerLimit" xml:space="preserve">
+    <value>Lower Limit</value>
+  </data>
+  <data name="lblUpperLimit" xml:space="preserve">
+    <value>Upper Limit</value>
+  </data>
+  <data name="lblTradeFor" xml:space="preserve">
+    <value>Trade For</value>
+  </data>
+</root>

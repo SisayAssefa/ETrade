@@ -1,0 +1,1 @@
+gXMLBuffer="<?xml version=\"1.0\" encoding=\"UTF-8\"?><cki><ck fm=\"Consider using Snippets\" to=\"Windows used\" num=\"12\"/></cki>";
